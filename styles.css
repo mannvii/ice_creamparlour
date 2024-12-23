@@ -1,0 +1,139 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful retro font */
+    background-color: #e6b0f0; /* Light yellow background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ac1f97; /* Soft coral color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff; /* White text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White links */
+    font-weight: bold;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    width: 40%; /* Responsive image size */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Ice Cream Item Styles */
+.ice-creams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ice-cream-item {
+    background-color: #fff; /* White background for items */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: calc(15% - 15px); /* Three items per row with margin adjustment */
+}
+
+.ice-cream-item img {
+    width: 57%; /* Responsive image size */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+button {
+    background-color: #ac1f97; /* Button color matching header */
+    color: white; /* White text on button */
+    border: none;
+    border-radius: 5px; /* Rounded button corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #8e1a7c; /* Darker shade on hover */
+}
+
+/* Review Section Styles */
+.reviews {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.review-item {
+   margin-top: 20px;
+   padding-bottom: 20px;
+   border-bottom: 2px dashed #ac1f97; /* Dashed line for separation */
+}
+
+.review-item img {
+   width: 400px; /* Fixed size for customer image */
+   border-radius: 120%; /* Circular image for customer photo */
+}
+
+/* Contact Form Styles */
+.contact-form {
+   max-width: 600px; /* Limit form width for better layout */
+   margin-left:auto; 
+   margin-right:auto; 
+   background-color:#fff; 
+   padding :20px ; 
+   border-radius :8px ; 
+   box-shadow :0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.contact-form h2 {
+   text-align:center ; 
+}
+
+input[type="text"], input[type="email"], textarea {
+   width :100%; 
+   padding :10px ; 
+   margin-bottom :10px ; 
+   border-radius :5px ; 
+   border :1px solid #ccc ; 
+}
+
+button[type="submit"] {
+   width :100%; 
+}
+
+/* Footer Styles */
+footer {
+   text-align:center ;
+   color: white; 
+   background-color:#ac1f97 ; 
+   padding :15px ; 
+   position :relative ; 
+}
